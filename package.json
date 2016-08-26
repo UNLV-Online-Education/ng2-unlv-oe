@@ -1,6 +1,6 @@
 {
   "name": "ng2-unlv-oe",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "An Angular 2 library of common components and services used in UNLV Online Education apps.",
   "repository": {
     "type": "git",

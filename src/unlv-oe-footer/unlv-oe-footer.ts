@@ -1,11 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { NgModule, Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'unlv-oe-footer',
   template: `
     <footer class="unlv-oe-footer">
     	<div class="container">
-        <a href="//online.unlv.edu" target="_blank"><img class="oe-logo" src="vendor/ng2-unlv-oe/src/assets/images/Online_Education_500w_trimmed.png" alt="UNLV Online Education Logo"></a>
+        <a href="//online.unlv.edu" target="_blank"><img class="oe-logo" src="//online.unlv.edu/sites/online.unlv.edu.oedrupal/libraries/base/Online_Education_500w_trimmed.png" alt="UNLV Online Education Logo"></a>
         <p class="copyright">
     			&copy; {{copyright}} UNLV Online Education
     		</p>
@@ -33,7 +34,7 @@ import { Component, OnInit } from '@angular/core';
     }
   `]
 })
-export class UnlvOeFooterComponent implements OnInit {
+export class UnlvOeFooter implements OnInit {
 
   constructor() {}
 
@@ -43,3 +44,10 @@ export class UnlvOeFooterComponent implements OnInit {
   copyright = new Date().getFullYear();
 
 }
+
+@NgModule({
+    imports: [CommonModule],
+    exports: [UnlvOeFooter],
+    declarations: [UnlvOeFooter]
+})
+export class UnlvOeFooterModule { }

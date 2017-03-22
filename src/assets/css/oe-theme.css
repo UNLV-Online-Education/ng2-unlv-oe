@@ -1,0 +1,43 @@
+/* Opinionated boilerplate theme styles for OE applications */
+
+/*  GLOBAL
+    ......................................  */
+
+html {
+  background: #f9f9f9;
+}
+
+html, .pure-g [class *= "pure-u"] {
+    font: 1em/1.5 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0 0 5.25rem; /* for the oe footer */
+}
+
+/*  GRID
+    ......................................  */
+
+.container {
+    padding: 0 1.5rem;
+}
+
+/*  TYPOGRAPHY
+    ......................................  */
+
+html {
+    color: #222;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+a {
+    color: #00BCD4;
+}
+
+a:not(.pure-button):hover {
+    color: #757575;
+}

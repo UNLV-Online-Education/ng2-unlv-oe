@@ -2,7 +2,9 @@
 node_modules
 npm-debug.log
 
-typings
+dist
+
+*.ngsummary.json
 
 # OS generated files
 Thumbs.db

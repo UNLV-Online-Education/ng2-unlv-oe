@@ -1,6 +1,6 @@
 {
 	"name": "ng2-unlv-oe",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "An Angular 2 library of common components and services used in UNLV Online Education apps.",
 	"main": "bundles/ng2-unlv-oe.umd.min.js",
 	"module": "index.js",

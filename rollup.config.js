@@ -8,6 +8,7 @@ export default {
     '@angular/core': 'ng.core',
     '@angular/common': 'ng.common',
     '@angular/http': 'ng.http',
+    'rxjs/Observable': 'Rx',
     'rxjs/add/operator/map': 'Rx.Observable.prototype'
   }
 }
